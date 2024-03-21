@@ -8,9 +8,10 @@ from google.cloud.aiplatform.gapic.schema import predict
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "growpro-413910-bf223dc2c423.json"
 
 def predict_image_classification_sample(
+    image_content,
     project: str = "546899236073",
     endpoint_id: str = "2716121375071797248",
-    image_content,
+    
     location: str = "us-central1",
     api_endpoint: str = "us-central1-aiplatform.googleapis.com",
 ):
