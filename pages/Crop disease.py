@@ -8,8 +8,8 @@ from google.cloud.aiplatform.gapic.schema import predict
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "growpro-413910-bf223dc2c423.json"
 
 def predict_image_classification_sample(
-    project: str,
-    endpoint_id: str,
+    project: "546899236073",
+    endpoint_id: "2716121375071797248",
     image_content,
     location: str = "us-central1",
     api_endpoint: str = "us-central1-aiplatform.googleapis.com",
@@ -53,10 +53,6 @@ def predict_image_classification_sample(
 image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 if image is not None:
     # Convert the UploadedFile object to bytes
-    r = predict_image_classification_sample(
-    "546899236073",
-    "2716121375071797248",
-    image
-)
+    r = predict_image_classification_sample(image)
     for i in r:
         st.write(i)
