@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "growpro-413910",
+  "private_key_id": "0e56fba7f94074e7aa339ce423e900b01abec671",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwyJbEKuskpH1T\nHwhbZVL80LgLl+VW4FnFfxt2et4EIFwQzjQZt6LXTXNwlVwfduF1hN3htsIXOrfO\nWrJN9RUbuQ3HtbyLn4ykAJ/HrHU8HFs43W3T6mHjNWzR/7lFxc816XlsKPtD5UZX\n7nf3gVxmYU8loFo5F5t/mQ1ydbFXknX7p+hjQ36Rs5QSq9EOoBIb4OgaqAN+d/7E\nnslvvsL3eH3z2QnjHsFG7wpxe5WqGRGDml2/9oxAyvoHiP3nU6zWSdQGoVVvSow8\nzgUICD2T9nkbJS8J9HY3DDbmWhqA4jSW9uP1GqftCLVq7aw1oeBxrSVJxlJHbCTn\nJN8uRLnnAgMBAAECggEARiXCFWMGXUrb4+C7ezCwhlr3vLnwKdHqLUDrj87fS/nf\nLlf0OoQwnIhCF1lc7atJeU1YkdjoGTmWd85rVB2823xJqIZHo4uSzfzlaeDXwBts\nYxsSGnW1k+e+H3H+fV4pg7X6FV4Jnf5bNEcO2Wo+VO2l70M6qc7hR/dea52h2iI9\na8UD8n6ewGkPHxecfXWAluBDxHCXpB3SXgaqdL0CwhwYh4iZ6y6oCS8TsSYXJBCS\nEQbEKLlEpWmgcJDtj164QKJ2D5wqsSDlmUQK8EmqdzAwPUnXR4RDcr6vi/lSpRb7\nc22AvMRuk4nPN/AXF4cPycgudBI5Yk0BDmNXirYxsQKBgQDkEE2QfGVK3P9kH5GP\nIlvsn49hGh+0Ija0mBN5n5YrMp+GsBjR91qb6yGVEclPIUJBNx7UudmsSPiZzTH7\nn60nJEIqbvrl1UjHScqENh2t2q/KV0X9vuSrm78AQDd6uaYZJ2kwvR0Iw4x0al2G\nUBFYKuMbsuFYOp5XQK8bFfxlrwKBgQDGcDn358mqF7gjs626iLsfqfe9yc3/KXvP\nIdBJJ4gY03U1K0RS74zyb5GYxYSJRu9D+QjO8+MJRJMlzOC/oZ1Kw6Jgu/uqIfXP\nrYvYHZpSwnlbUgq34WNXC3c+301aGzrNanvzAcHLdiYPWakSyvQ7XWbardWxqPWo\nwoqyEcm1SQKBgEdFtQe/aGRh9kpS90lVAodLQiKlaF0CCDieAhATSHnNgz8zTz5m\n3+E0NTWB7niVO0BoOnFed2E5GL/v+XvaZeGCmk7qiexDoE/vhqOUyeeoHSHN7mij\nPJFIxgMNDomC9R6NS3lY0HcJrZ5AE2RDJ3h3RqxEVdodz5gS9eYwE8WvAoGBAMAl\nfUwaKgDEtO4FFuzvZtoTN6uTVB+GKLd5k3iyiasYXn7cZW01PjKma8IVR++xOw+D\nfc7/A1E/EIjiqKGGOYtigcHPZLHp7l5pOmdKytrmKqKNf4lr+kgX9yBvEzRz921e\ndaTph6Cex93HQNrMoM828tg+yRQdebouniQs6zbZAoGABIG6cAyr064NmfFeybZ1\nU1WkDMbn4oc71lcSt87qQI2XaTgA87FISnOIbYjJ60q/QcLQp9lGcqyAVMcKLVAX\ncBfZ0qCZNKK1GVGZT6BeWnrWJ+yyqw7qLKi8MICQUsaTGRk/xoGRGqdnU0tMhwSM\n3Pg1zZ6cOgZJzs2cq6hdncw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ecovistai@growpro-413910.iam.gserviceaccount.com",
+  "client_id": "116440643420426263923",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ecovistai%40growpro-413910.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
