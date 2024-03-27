@@ -1,0 +1,7 @@
+pH Range,Chemical Characteristics,Deficient Nutrients,Suitable Crops
+<4,Strongly acidic,All Nutrients,Not suitable for any crop
+4-6,Moderately acidic,"Boron, Calcium, Potassium, Magnesium, Molybdenum, Nitrogen, Phosphorus","Wheat, Soyabean, Rice, Potato, Pea,Peanut"
+6,Slightly acidic,"Calcium, Magnesium, Nitrogen, Phosphorus, Sulfur","Wheat, Soyabean, Rice, Sweet Potato,Corn, Beetroot"
+7,Neutral,No deficient nutrients,"Wheat, Soyabean, Barley, Vegetables, Oilseeds, Mushrooms, Oats, Cotton"
+8,Slightly alkaline,"Iron, Manganese, Nitrogen, Phosphorus","Vegetables, Oilseeds, Mushrooms,Oats, Cotton, Cucumber, Garlic"
+>9,Strongly alkaline,All Nutrients,Not suitable for any crops
