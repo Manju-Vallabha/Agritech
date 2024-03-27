@@ -2,3 +2,4 @@ python-dotenv
 google-generativeai
 google-cloud-aiplatform
 streamlit_lottie
+joblib
