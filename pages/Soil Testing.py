@@ -8,7 +8,7 @@ import json
 from streamlit_lottie import st_lottie
 st.set_page_config(
     page_title="Soil Testing AI",
-    page_icon=":bar_chart:",
+    page_icon="🌿",
     layout="wide"
 
 )
@@ -24,7 +24,7 @@ title = f"""
         """
 st.markdown(title, unsafe_allow_html=True)
 co1,co2,co3 = st.columns([1,1,1])
-coo1,coo2,coo3 = st.columns([1,1,1])
+coo1,coo2,coo3 = st.columns([1,4,1])
 data = pd.read_csv('info.csv')
 
 predicted_pH = 0
@@ -87,14 +87,23 @@ with st.sidebar:
      input_type = st.selectbox("Pick one", ["Upload Image","Camera Input", ])
      if input_type == "Upload Image":
           uploaded_file = st.file_uploader("Choose an image...", type="jpg")
-if input_type == "Camera Input":
-     uploaded_file = st.camera_input("Choose an image...")
-if input_type == "Upload Image" or input_type == "Camera Input":
-     if uploaded_file is not None:
-            st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
-     else:
+
+if input_type == "Upload Image":
+  with co2:
+     if uploaded_file is None:
             st.warning("Please upload an image to get started.")
-if st.button("Test the soil") and uploaded_file is not None :
+           
+     else:
+      with coo2:
+          st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+if input_type == "Camera Input":
+   with coo2:
+     uploaded_file = st.camera_input("Capture the soil image.")
+            
+
+if uploaded_file is not None:
+    with coo2:
+      if st.button("Test the soil Image"):
         image = Image.open(uploaded_file)
         # Calculate the average RGB values
         average_rgb = calculate_average_rgb(image)
@@ -127,7 +136,7 @@ if st.button("Test the soil") and uploaded_file is not None :
 
         info = f"The Ph of the Soil is {int(predicted_pH)}.\n\nChemical Characteristics: {chemical} .\n\nNutrients: {nutrients} ."
         st.success(info)
-        if int(predicted_pH) <= 4 and int(predicted_pH) >= 8:
+        if int(predicted_pH) >= 4 and int(predicted_pH) <= 8:
             st.info("The crops can be grown in the soil are: "+crops)
         else:
             st.warning("The soil is not suitable for any crops.")
