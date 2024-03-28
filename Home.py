@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
-st.set_page_config(layout='wide',page_title="Agritech", page_icon="🪵")
+st.set_page_config(layout='wide',page_title="Grow Wise", page_icon="🪵")
 google_logo = load_lottiefile("Animation - 1711075172542.json")
 gemini_logo = load_lottiefile("Animation - 1711075470161.json")
 title = st.container()
@@ -19,7 +19,7 @@ with title:
             text-align: center;
             font-size: 40px;
             font-weight: bold;
-        '>{text}<h2>{"🌾 Cultivate a brighter future with AgriTech 🌾"}</h2><br><h2>{"AI Powered Smart Agriculture Assisstant"}<\h2><br>
+        '>{text}<h2>{"🌾 Cultivate a brighter future with AgriTech 🌾"}</h2><h2>{"AI Powered Smart Agriculture Assisstant"}</h2><br>
         </div>
         """
     st.markdown(title, unsafe_allow_html=True)
