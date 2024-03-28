@@ -12,14 +12,14 @@ title = st.container()
 content = st.container()
 with title:
     
-    text = 'AgriTech'
+    text = 'Grow Wise'
     title = f"""
         <div style='
             font-family: arial;
             text-align: center;
             font-size: 40px;
             font-weight: bold;
-        '>{text}<h4>{"🌾 Cultivate a brighter future with AgriTech 🌾"}</h2><br>
+        '>{text}<h2>{"🌾 Cultivate a brighter future with AgriTech 🌾"}</h2><br><h2>{"AI Powered Smart Agriculture Assisstant"}<\h2><br>
         </div>
         """
     st.markdown(title, unsafe_allow_html=True)
