@@ -73,7 +73,7 @@ with content:
     #     with c_2:
     #         st_lottie(google_logo, speed=1, width=400, height=400)
     # st.markdown("<br><br>", unsafe_allow_html=True)
-    # c_11, c_22 = st.columns([2,4])
+    c_11, c_22 = st.columns([2,4])
     with c_11:
         st_lottie(gemini_logo, speed=1, width=400, height=400)
     with c_22:
