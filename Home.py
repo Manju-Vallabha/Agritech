@@ -50,30 +50,30 @@ with content:
     st.markdown(html_code, unsafe_allow_html=True)
     st.markdown("<br><br>", unsafe_allow_html=True)
     c_1, c_2 = st.columns([4,2])
-    with c_1:
-        title = "Technology in Agritech"
-        text = "At Agritech, we leverage the advanced capabilities of Google Cloud Vertex AI for our model training needs. With Vertex AI, we streamline the entire model training process, from data preparation to model deployment, ensuring efficiency and effectiveness at every step.<br><br>One of the key features we utilize within Vertex AI is AutoML, which allows us to rapidly prototype and deploy high-quality models with minimal manual intervention. Whether it's image recognition, natural language processing, tabular data analysis, or video understanding, AutoML enables us to train models quickly and efficiently, accelerating our development timelines."
-        html_code = f"""
-            <div style='
-                background-color: #2A2937;
-                border-radius: 5px;
-                padding: 20px;
-                font-family: Arial;
-                font-size: 20px;
-                border: 2px;
-                '><h3>{title}</h3>
-                <div style='
-                    font-family: monospace;
-                    font-size: 18px;
-                '>
-                {text}<br><br></div>
-            </div>
-            """
-        st.markdown(html_code, unsafe_allow_html=True)
-        with c_2:
-            st_lottie(google_logo, speed=1, width=400, height=400)
-    st.markdown("<br><br>", unsafe_allow_html=True)
-    c_11, c_22 = st.columns([2,4])
+    # with c_1:
+    #     title = "Technology in Agritech"
+    #     #text = "At Agritech, we leverage the advanced capabilities of Google Cloud Vertex AI for our model training needs. With Vertex AI, we streamline the entire model training process, from data preparation to model deployment, ensuring efficiency and effectiveness at every step.<br><br>One of the key features we utilize within Vertex AI is AutoML, which allows us to rapidly prototype and deploy high-quality models with minimal manual intervention. Whether it's image recognition, natural language processing, tabular data analysis, or video understanding, AutoML enables us to train models quickly and efficiently, accelerating our development timelines."
+    #     html_code = f"""
+    #         <div style='
+    #             background-color: #2A2937;
+    #             border-radius: 5px;
+    #             padding: 20px;
+    #             font-family: Arial;
+    #             font-size: 20px;
+    #             border: 2px;
+    #             '><h3>{title}</h3>
+    #             <div style='
+    #                 font-family: monospace;
+    #                 font-size: 18px;
+    #             '>
+    #             {text}<br><br></div>
+    #         </div>
+    #         """
+    #     st.markdown(html_code, unsafe_allow_html=True)
+    #     with c_2:
+    #         st_lottie(google_logo, speed=1, width=400, height=400)
+    # st.markdown("<br><br>", unsafe_allow_html=True)
+    # c_11, c_22 = st.columns([2,4])
     with c_11:
         st_lottie(gemini_logo, speed=1, width=400, height=400)
     with c_22:
