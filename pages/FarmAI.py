@@ -15,7 +15,7 @@ st.set_page_config(
     layout="centered",  # Page layout option
 )
 
-GOOGLE_API_KEY = 'AIzaSyBgpBxlwjCRYB54hceVUcVhFYPenfeatq4'
+GOOGLE_API_KEY = 'AIzaSyCTFeb-qp5P_Gn73L8RCWKjWx-3iqUJRbw'
 
 # Set up Google Gemini-Pro AI model
 gen_ai.configure(api_key=GOOGLE_API_KEY)
