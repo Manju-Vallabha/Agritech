@@ -86,7 +86,7 @@ with st.sidebar:
      #st.success("The model uses an XGBoost algorithm to predict the pH value based on the RGB values of the soil image.")
      input_type = st.selectbox("Pick one", ["Upload Image","Camera Input", ])
      if input_type == "Upload Image":
-          uploaded_file = st.file_uploader("Choose an image...", type="jpg")
+          uploaded_file = st.file_uploader("Choose an image...")
 
 if input_type == "Upload Image":
   with co2:
