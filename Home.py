@@ -98,7 +98,7 @@ with content:
         st.markdown(html_code, unsafe_allow_html=True)
         st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown("<br><br>", unsafe_allow_html=True)
-    text = "The Project is developed by Team  Rudra from Kalasalingam Academy of Research and Education, Krishnankoil, Tamil Nadu, India."
+    text = "The Project is developed by Team Raghava from Kalasalingam Academy of Research and Education, Krishnankoil, Tamil Nadu, India."
     html_code = f"""
             <div style='
                 background-color: #2A2937;
